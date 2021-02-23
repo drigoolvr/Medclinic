@@ -10,7 +10,7 @@ body {
 header {
     display:flex;
     justify-content:center;
-    height:120px;
+    height:50px;
 }
 
 .container {
@@ -26,11 +26,10 @@ header {
 }
 
 .logo p {
-    font-size: 50px;
+    font-size: 40px;
     color: #39aae1;
     font-weight: bold;
     text-shadow: 1px 1px 0px black;
-    border-bottom: 5px solid #39aae1;
 }
 
 .menu {
@@ -86,7 +85,7 @@ nav a:hover {
 
 .banner_headline h1 {
     color:#FFFFFF;
-    font-size:70px;
+    font-size:50px;
     text-shadow: 0px 1px 0px #555555;
     margin:0;
     padding:0;
@@ -204,6 +203,7 @@ nav a:hover {
 
 .bluesquares {
     background-color:#36a9e1;
+    border-radius: 15px;
     width:150px;
     height:150px;
     margin-bottom:30px;
@@ -214,6 +214,7 @@ nav a:hover {
     font-size: 20px;
     text-align: center;
     cursor: pointer;
+    box-shadow: 0px 0px 5px grey;
 }
 
 .widget_contact_text {
@@ -270,14 +271,14 @@ article .news_thumbnail {
 
 article .news_thumbnail img {
     width:100%;
-    height:auto;
+    height:200px;
 }
 
 article .news_title {
     margin-top: 25px;
     margin-bottom:25px;
     color:black;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 article .news_resume {
@@ -393,21 +394,6 @@ footer .widget_title_text {
     margin-top:0px;
     padding-left:15px;
     text-align:justify;
-}
-
-.social_media_icons {
-    margin-top:15px;
-    display:flex;
-}
-
-.media_icon {
-    margin-right:10px;
-    width:40px;
-    height:40px;
-    background-color: #555555;
-    border: 1px solid black;
-    text-align: center;
-    line-height: 40px;
 }
 
 .menuMobile {
